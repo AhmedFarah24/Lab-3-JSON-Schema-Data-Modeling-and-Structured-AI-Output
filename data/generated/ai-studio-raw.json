@@ -1,0 +1,112 @@
+[
+{
+"property_id": "P001",
+"address": {
+"street": "1042 Maplecrest Way",
+"city": "Los Angeles",
+"state": "CA"
+},
+"price": 845000,
+"bedrooms": 3,
+"bathrooms": 2.5,
+"square_feet": 1850,
+"amenities": [
+"garage",
+"laundry",
+"balcony"
+],
+"zip_code": "90026",
+"local_sponsors": [
+"S001",
+"S003"
+]
+},
+{
+"property_id": "P002",
+"address": {
+"street": "2309 Foggy Ridge Terrace",
+"city": "San Francisco",
+"state": "CA"
+},
+"price": 1320000,
+"bedrooms": 2,
+"bathrooms": 2,
+"square_feet": 1420,
+"amenities": [
+"parking",
+"laundry",
+"balcony"
+],
+"zip_code": "94107",
+"local_sponsors": [
+"S002"
+]
+},
+{
+"property_id": "P003",
+"address": {
+"street": "412 Sunburst Lane",
+"city": "San Diego",
+"state": "CA"
+},
+"price": 975000,
+"bedrooms": 4,
+"bathrooms": 3,
+"square_feet": 2340,
+"amenities": [
+"pool",
+"garage",
+"laundry"
+],
+"zip_code": "92103",
+"local_sponsors": [
+"S001",
+"S004"
+]
+},
+{
+"property_id": "P004",
+"address": {
+"street": "785 Whispering Pines Blvd",
+"city": "Sacramento",
+"state": "CA"
+},
+"price": 465000,
+"bedrooms": 0,
+"bathrooms": 1,
+"square_feet": 620,
+"amenities": [
+"parking",
+"pool",
+"laundry"
+],
+"zip_code": "95814",
+"local_sponsors": [
+"S005"
+]
+},
+{
+"property_id": "P005",
+"address": {
+"street": "8840 Cactus Blossom Drive",
+"city": "Palm Springs",
+"state": "CA"
+},
+"price": 1150000,
+"bedrooms": 3,
+"bathrooms": 2.5,
+"square_feet": 2180,
+"amenities": [
+"parking",
+"pool",
+"garage",
+"balcony"
+],
+"zip_code": "92262",
+"local_sponsors": [
+"S002",
+"S003",
+"S006"
+]
+}
+]

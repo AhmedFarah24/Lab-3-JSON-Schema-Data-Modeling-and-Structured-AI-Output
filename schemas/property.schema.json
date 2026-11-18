@@ -1,0 +1,69 @@
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Property Listing",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "property_id",
+    "address",
+    "price",
+    "bedrooms",
+    "bathrooms",
+    "square_feet",
+    "amenities",
+    "zip_code",
+    "local_sponsors"
+  ],
+  "properties": {
+    "property_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "address": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["street", "city", "state"],
+      "properties": {
+        "street": {"type": "string", "minLength": 3},
+        "city": {"type": "string", "minLength": 2},
+        "state": {"type": "string", "enum": ["CA"]}
+      }
+    },
+    "price": {
+      "type": "number",
+      "minimum": 0
+    },
+    "bedrooms": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "bathrooms": {
+      "type": "number",
+      "minimum": 0
+    },
+    "square_feet": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "amenities": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": ["parking", "pool", "garage", "laundry", "balcony"]
+      }
+    },
+    "zip_code": {
+      "type": "string",
+      "pattern": "^[0-9]{5}$"
+    },
+    "local_sponsors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+
+[
+  {
+    "property_id": "P001",
+    "address": {
+      "street": "100 Example Street",
+      "city": "Los Angeles",
+      "state": "CA"
+    },
+    "price": 650000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "square_feet": 1500,
+    "amenities": ["parking", "laundry"],
+    "zip_code": "90001",
+    "local_sponsors": ["S001"]
+  },
+  {
+    "property_id": "P002",
+    "address": {
+      "street": "200 Sample Avenue",
+      "city": "Torrance",
+      "state": "CA"
+    },
+    "price": 780000,
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "square_feet": 1900,
+    "amenities": ["garage", "balcony"],
+    "zip_code": "90501",
+    "local_sponsors": ["S002"]
+  },
+  {
+    "property_id": "P003",
+    "address": {
+      "street": "300 Demo Boulevard",
+      "city": "Carson",
+      "state": "CA"
+    },
+    "price": 520000,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "square_feet": 1100,
+    "amenities": ["parking"],
+    "zip_code": "90745",
+    "local_sponsors": []
+  },
+  {
+    "property_id": "P004",
+    "address": {
+      "street": "400 Fictional Lane",
+      "city": "Long Beach",
+      "state": "CA"
+    },
+    "price": 895000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "square_feet": 2200,
+    "amenities": ["pool", "garage"],
+    "zip_code": "90802",
+    "local_sponsors": ["S001", "S002"]
+  },
+  {
+    "property_id": "P005",
+    "address": {
+      "street": "500 Test Drive",
+      "city": "Inglewood",
+      "state": "CA"
+    },
+    "price": 610000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "square_feet": 1400,
+    "amenities": ["laundry", "balcony"],
+    "zip_code": "90301",
+    "local_sponsors": ["S002"]
+  }
+]
